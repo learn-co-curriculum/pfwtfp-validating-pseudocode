@@ -1,4 +1,4 @@
-# Title
+# Validating Pseudocode / Debugging with the Triangle Process
 
 ## Learning Goals
 
