@@ -2,16 +2,16 @@
 
 ## Learning Goals
 
-- Create Code from Pseudocode
+- Identify a process to validate pseudocode
 
 ## Introduction
 
-Hopefully upon your review of the pseudocode you found the bug in it.  Did you
+Hopefully upon your review of the pseudocode you found the bug in it. Did you
 see it? Don't worry if it didn't leap out for you. Our process will help you
-spot the issue.  Let's analyze our process for validating our pseudocode, the
+spot the issue. Let's analyze our process for validating our pseudocode, the
 6<sup>th</sup> step in the Flatiron Programming Process.
 
-## Pseudocode
+## Identify a Process to Validate Pseudocode
 
 Here's the pseudocode again:
 
@@ -34,7 +34,7 @@ Procedure DivideBaguetteEvenly(baguette, n):
 
 We're going to walk through our pseudocode using a state table.
 
-## Introducing State Tables
+### Introducing State Tables
 
 State tables are tables that keep track of the inputs, outputs, local
 variables, and conditions in a bounded or fenced-off "bloc" of code or
@@ -60,12 +60,12 @@ So for `DivideBaguetteEvenly`, we can create the following table:
 
 We'll "plug in" some data for `DivideBaguetteEvenly` use and then we'll step
 through, line by line and update the "state" or the "values" of the variables
-as we work through the Procedure's function. We'll check our output against our
+as we work through the procedure's function. We'll check our output against our
 expectations and make sure our logic is right.
 
 ### Filling in the State Table
 
-Lets play through our Procedure like so:
+Lets play through our procedure like so:
 
 `DivideBaguetteEvenly( 60cm baguette, 3 people)`
 
@@ -93,7 +93,7 @@ Work through the code, filling out the table:
 Try testing the table with: `DivideBaguetteEvenly( 60cm baguette, 1 people)`.
 That's certainly wrong output as well.
 
-## Introducing the Triangle Process of Debugging
+### Introducing the Triangle Process of Debugging
 
 Whenever we debug we should always examine a single code "bloc" (a procedure, a
 function, a method, etc.). We don't want to confuse ourselves.
@@ -116,7 +116,7 @@ For our Procedure:
 * Our output was incorrect
 * What went wrong in our implementation?
 
-Let's made some hypotheses about what a "working" method would have for a 60cm
+Let's make some hypotheses about what a "working" method would have for a 60cm
 baguette divided among 3 people:
 
 * 3 pieces
@@ -133,14 +133,13 @@ table to verify that the fix works.
 ## Conclusion
 
 Validating our pseudocode before implementing it as code is a vital skill to
-develop. When engineers are seen "white boarding" they are playing through
-pseudocode. The ability to craft focused pseudocode that solves problems is the
-essential focus of the "whiteboard" interview used in engineering teams.
+develop. When you see engineers "white boarding," they are playing through
+pseudocode and spotting errors or issues before they move to real code. When you
+interview for a programming job, you'll often find a focus on testing "white
+boarding" skills. The ability to demonstrate, with state tables, that your
+pseudocode works is a strong signal to other developers of your ability to think
+clearly about programming.
 
-The ability to demonstrate, with state tables, that your pseudocode works is a
-strong signal to other developers of your ability to think clearly about
-programming.
-
-The final step (and, to be honest, it's also expected in whiteboard interviews)
-is to take these ideas and turn them into code in a particular language. Let's
-take our baguette_length dividing Procedure and turn it into Ruby code.
+The final step (which is also generally expected in whiteboard interviews) is to
+take these ideas and turn them into code in a particular language. Let's take
+our `baguette_length` dividing procedure and turn it into Ruby code.
