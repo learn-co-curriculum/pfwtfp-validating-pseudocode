@@ -60,12 +60,12 @@ So for `DivideBaguetteEvenly`, we can create the following table:
 
 We'll "plug in" some data for `DivideBaguetteEvenly` use and then we'll step
 through, line by line and update the "state" or the "values" of the variables
-as we work through the procedure's function. We'll check our output against our
+as we work through the _Procedure_'s function. We'll check our output against our
 expectations and make sure our logic is right.
 
 ### Filling in the State Table
 
-Lets play through our procedure like so:
+Lets play through our _Procedure_ like so:
 
 `DivideBaguetteEvenly( 60cm baguette, 3 people)`
 
@@ -110,7 +110,7 @@ For a given bloc ask:
 * Were its outputs correct?
 * Was the implementation correct
 
-For our Procedure:
+For our _Procedure_:
 
 * Our inputs were correct.
 * Our output was incorrect
@@ -133,13 +133,14 @@ table to verify that the fix works.
 ## Conclusion
 
 Validating our pseudocode before implementing it as code is a vital skill to
-develop. When you see engineers "white boarding," they are playing through
-pseudocode and spotting errors or issues before they move to real code. When you
-interview for a programming job, you'll often find a focus on testing "white
-boarding" skills. The ability to demonstrate, with state tables, that your
-pseudocode works is a strong signal to other developers of your ability to think
-clearly about programming.
+develop. When engineers are seen "white boarding" they are playing through
+pseudocode. The ability to craft focused pseudocode that solves problems is the
+essential focus of the "whiteboard" interview used in engineering teams.
 
-The final step (which is also generally expected in whiteboard interviews) is to
-take these ideas and turn them into code in a particular language. Let's take
-our `baguette_length` dividing procedure and turn it into Ruby code.
+The ability to demonstrate, with state tables, that your pseudocode works is a
+strong signal to other developers of your ability to think clearly about
+programming.
+
+The final step (and, to be honest, it's also expected in whiteboard interviews)
+is to take these ideas and turn them into code in a particular language. Let's
+take our `baguette_length` dividing _Procedure_ and turn it into Ruby code.
