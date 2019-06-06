@@ -93,6 +93,28 @@ Work through the code, filling out the table:
 Try testing the table with: `DivideBaguetteEvenly( 60cm baguette, 1 people)`.
 That's certainly wrong output as well.
 
+### Thinking is the Problem
+
+> "The brain is not designed for thinking. It's designed to save you from having to think...Thinking is slow and unreliable."
+>
+> _Why Don't Students Like School_ by Daniel T. Willingham
+
+Did you find the bug in the pseudocode before this lesson? Congratulations. ***Most people don't see the bug!*** The 
+reason is because of the way our brains work. We look at (pseudo-)code and think: "Huh, that's nicely formatted
+codey words and parentheses, probably right." Even when we read *every* word, our brains encourage us to skip
+and lose focus. Programming is, in many ways, like a martial art or yoga: patience, awareness, and focus are all
+essential to success. If you didn't spot the bug, you should not be aware of just how fallible ***we all*** are
+when programming. We have to beat our brains' desire to blind us to truth.
+
+We can do that by:
+
+* Coding small methods that we test, verify, and then stitch together with other small methods
+* Understanding our biology and being aware that a second, third, and fiftieth pair of eyes is a help
+* Knowing when to reach for discipline-enforcing tools (like tables, above)
+* Having a default process or procedure we "fall back" to when we are stumped
+
+We're going to show you our baseline process for working now.
+
 ### Introducing the Triangle Process of Debugging
 
 Whenever we debug we should always examine a single code "bloc" (a procedure, a
